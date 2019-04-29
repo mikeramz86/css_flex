@@ -1,0 +1,35 @@
+/* DEFAULT */
+
+*, *:before, *:after {
+    padding:        0;
+    margin:         0;
+    border:         0;
+    background:     transparent;
+    vertical-align: baseline;
+    box-sizing:     border-box;
+  }
+  
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-family:  sans-serif;
+    font-size:    unit(1.6em);
+    font-weight:  400;
+    line-height:  1.25;
+}
+  
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Flexbox */
+
+div {
+    border: 4px solid gray;
+    border-radius: 1000px;
+}
+
+  
