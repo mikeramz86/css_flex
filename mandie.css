@@ -1,0 +1,44 @@
+.hero {
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* padding-bottom: 150px; */
+
+}
+
+.story {
+    margin-top: 10px;
+    display: flex;
+    height: 100vh;
+
+}
+
+.story div {
+    border: 0.1rem solid grey;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 45%;
+}
+
+.info {
+    margin-top: 10px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
